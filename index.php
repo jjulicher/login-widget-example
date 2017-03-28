@@ -20,7 +20,7 @@
     <meta name="salesforce-login-handler" content="onLogin">
     <meta name="salesforce-logout-handler" content="onLogout">
 	<link href="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/resource/salesforce_login_widget_css" rel="stylesheet" type="text/css" /> 
-    <script src="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/resource/salesforce_login_widget_js_min" async defer></script>
+    <script src="https://<?php echo getenv('SALESFORCE_COMMUNITY_URL');?>/resource/salesforce_login_widget_js" async defer></script>
   </head>
   
   <body>
